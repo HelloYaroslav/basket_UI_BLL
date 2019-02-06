@@ -1,0 +1,1 @@
+let form = new BasketView();

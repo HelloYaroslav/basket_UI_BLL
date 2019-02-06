@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button{
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+    min-width: 173px;
+    overflow: hidden;
+    background-color: rgba(80, 75, 74, 0.808);
+    border: 2px solid  tomato;
+}
+
+.change-log{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 5px;
+    min-width: 173px;
+    border: 2px solid  tomato;
+
+}
+
+.select-fruit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-fruit span{
+    color: white;
+}
+
+.select-fruit input{
+    width: 80px;
+}
+.form.col-3 button{
+    width: 100%;
+}
+
+.fruits-list{
+    border: 2px solid lightgoldenrodyellow;
+    padding: 3px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.fruits-list p{
+    color: white;
+}
+
+.fruits-list span{
+    color: rgb(241, 52, 52);
+    font-weight: 600;
+}
+
+.hide{
+    display: none;
+}
